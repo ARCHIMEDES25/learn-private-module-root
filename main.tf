@@ -1,5 +1,4 @@
-provider "aws" {
-}
+provider "aws" { }
 
 module "s3-webapp" {
   source  = "app.terraform.io/arch/s3-webapp/aws"

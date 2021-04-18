@@ -1,4 +1,6 @@
-provider "aws" { }
+provider "aws" {
+  region = "us-west-2"
+}
 
 module "s3-webapp" {
   source  = "app.terraform.io/arch/s3-webapp/aws"
